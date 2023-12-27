@@ -5,12 +5,14 @@ Fast Subgraph Matching by Dynamic Graph Editing
 Under the root directory of the project, Execute the following command to run the program
 
 ```bash
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 ./DGE -d ./data/data.txt -q ./data/query.txt -num 100000
 ```
 
 Or run the program with the script:
 
 ```bash
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 ./run.sh
 ```
 
